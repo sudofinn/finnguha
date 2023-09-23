@@ -1,0 +1,86 @@
+.outer {
+    color:white;
+    text-align: center;
+
+    margin-top:300px;
+    
+}
+
+.outer >h1 {
+    font-size: 7rem;
+
+}
+
+.outer >h1:hover {
+    cursor: pointer;
+}
+
+
+.primary {
+    font-size:2rem;
+    color:white;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+
+    
+}
+
+
+.social {
+    margin-top:-50px;
+    margin-bottom:50px;
+}
+
+.socialemail {
+    color:white;
+}
+
+.socialtwitter {
+   margin-right:30px;
+   width:50px;
+   height:50px;
+   border:3px white solid;
+   padding:10px;
+
+   color:white;
+}
+
+.socialmedium {
+    margin-right:30px;
+   width:50px;
+   height:50px;
+   border:3px white solid;
+   padding:10px;
+
+   color:white;
+}
+
+.socialemail {
+    
+   width:50px;
+   height:50px;
+   border:3px white solid;
+   padding:10px;
+
+}
+
+
+
+.primary >h3 {
+    font-size:2rem;
+    
+    text-decoration :underline blue;
+
+    color:white;
+}
+
+.primary >h3:hover {
+    color:blue;
+    border:none;
+    cursor: pointer;
+
+
+}
+

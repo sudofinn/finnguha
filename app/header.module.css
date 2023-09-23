@@ -1,0 +1,246 @@
+/* top */
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-right:20px;
+  margin-left:20px;
+
+  font-size:2rem;
+}
+
+.linktop >h2 {
+  color:white;
+}
+
+.linktop >h2:hover {
+  text-decoration: underline white;
+  cursor: pointer;
+}
+
+
+
+/* primary */
+.primary {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+ 
+}
+
+.primary >h1 {
+  color:white;
+
+  width:90%;
+  padding-top:0px;
+
+  font-size: 5rem
+
+ 
+}
+
+
+/* links */
+.links {
+  text-decoration: underline blue;
+  color:white;
+
+}
+
+.links:hover {
+  color:blue;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.links2 {
+  text-decoration: underline green;
+  color:white;
+}
+.links2:hover {
+  color:green;
+  text-decoration:none ;
+  cursor: pointer;
+}
+
+
+/* search */
+.search {
+  display: flex;
+  justify-content: center;
+
+}
+
+.search >span {
+
+  padding:20px;
+  border: 5px purple solid;
+  background-color:white;
+
+  font-size:2rem;
+  font-weight:600;
+  margin-right:10px;
+
+  cursor: pointer;
+  
+}
+
+
+
+
+
+
+
+/* content in search */
+.searchicon {
+  width:30px;
+  height:25px;
+  font-weight:700
+}
+
+.primarybutton {
+
+  padding:20px;
+  border: 5px yellow solid;
+
+  font-size:1.5rem;
+  margin-left: 10px;
+
+  cursor: pointer;
+  
+}
+
+
+
+
+
+
+/* video  */
+.videoPrimary >video {
+   max-width: 100%;
+  height: auto;
+
+ 
+
+  padding-top:100px;
+}
+
+.videoPrimary {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*  RESPONSIVE SECTION*/
+
+
+@media (max-width: 1500px) {
+     .primary > h1 {
+        font-size:3.5rem;
+        width:90%;
+        
+     }
+
+     .linktop >h2 {
+        font-size:1.5rem;
+     }
+
+   .search >input {
+
+        font-size:24px;
+      }
+}
+
+@media (max-width: 1200px) {
+     .primary > h1 {
+        font-size:3rem;
+        width:90%;
+        
+     }
+
+     .linktop >h2 {
+        font-size:1.5rem;
+     }
+     
+   .search >input {
+
+        font-size:24px;
+      }
+
+  
+}
+
+
+@media (max-width: 900px) {
+     .primary > h1 {
+        font-size:2rem;
+        
+        
+        
+     }
+     .search >span {
+      font-size:1.5rem;
+     }
+
+     .linktop >h2 {
+        font-size:1.5rem;
+     }
+
+   .search >input {
+        font-size:24px;
+      }
+}
+
+
+@media (max-width: 900px) {
+     .primary > h1 {
+        font-size:2rem;
+        
+        
+        
+     }
+
+     .linktop >h2 {
+        font-size:1.5rem;
+     }
+
+   .search >input {
+        font-size:24px;
+      }
+}
+
+
+
+
+
+
+
+@media(max-width:600px) {
+     .primary >h1 {
+        font-size:2.5rem;
+        width:100%;
+        
+     }
+
+     .top >h2 {
+        font-size:1.5rem;
+     }
+
+     .search >input {
+        padding-right:30px;
+        padding:10px;
+        margin-right:0px;
+        
+        
+     }
+     .search >input::placeholder {
+      font-size:24px;
+     }
+
+     .videoPrimary >video {
+      width:100%;
+     }
+    
+}
+
+

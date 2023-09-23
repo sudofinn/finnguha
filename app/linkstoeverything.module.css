@@ -1,0 +1,47 @@
+.btnPrimary >button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+    font-size:2rem;
+
+    margin-bottom:20px;
+    font-weight: 700;
+
+
+    cursor: pointer;
+
+}
+
+
+.btnPrimary >button:hover {
+    cursor: pointer;
+}
+
+
+.btnPrimary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-left:100px;
+    margin-right:100px;
+
+    margin-top:300px;
+
+    
+}
+
+@media(max-width:1000px) {
+    .btnPrimary  {
+        margin-left:0px;
+        margin-right:0px;
+    }
+
+    .btnPrimary >button {
+        font-size:1.5rem;
+    }
+    
+}

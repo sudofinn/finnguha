@@ -1,0 +1,65 @@
+.primary1 {
+    color:white;
+    margin-top:200px;
+}
+
+.primary1 >h1 {
+    text-align: center;
+    font-size:3rem;
+    margin-left:100px;
+    margin-right:100px;
+
+    margin-bottom:50px;
+}
+
+.btn {
+  text-align: center;
+  
+ 
+}
+.btn >button {
+  font-size:2rem;
+  padding:20px;
+  border:3px red solid;
+}
+.btn >button:hover {
+  background-color:red;
+  border:3px yellow solid;
+  color:white;
+}
+
+.span1 {
+   
+  text-decoration: underline yellow;
+   white-space: nowrap;
+}
+
+.span1:hover {
+   color:yellow;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+
+
+.player {
+   max-width: 100%;
+  height: auto;
+
+  padding-top:100px;
+}
+
+
+
+
+@media(max-width:1000px) {
+   .primary1 >h1 {
+    font-size:2rem;
+    margin-left:0px;
+    margin-right:0px;
+   }
+
+   
+}
+
+

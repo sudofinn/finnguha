@@ -1,0 +1,151 @@
+.primary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.primary >h1 {
+    color:white;
+
+    font-size:3rem;
+
+   width:80%;
+   margin:auto;
+   text-align: center;
+
+   margin-top:50px;
+
+}
+
+
+.primary >h3 {
+    color:white;
+    text-align: center;
+    width:60%;
+
+    font-size:2rem;
+}
+
+.span1 {
+    text-decoration: underline rgb(121, 18, 139);
+}
+
+.link {
+    text-decoration: underline purple;
+    color:white;
+    
+}
+.link:hover {
+    text-decoration: none;
+    color:purple;
+}
+.link1 {
+    text-decoration: underline blue;
+    color:white;
+}
+.link1:hover {
+    text-decoration: none;
+    color:blue;
+}
+
+
+
+.img1 {
+    margin-top:50px;
+    object-fit: cover;
+}
+.img1Sm {
+    display: none;
+}
+.img2 {
+    width:60%;
+    height:60%;
+
+    margin-top:200px;
+}
+
+.tweet  {
+  display: flex;
+  justify-content: space-evenly;
+
+  margin-top:200px;
+
+
+  
+}
+
+.tweetl {
+  width:600px;
+}
+
+.tweetr {
+  width:600px;
+}
+
+
+.btn {
+  text-align: center;
+  margin-bottom:30px;
+  
+ 
+}
+.btn >button {
+  font-size:2rem;
+  padding:20px;
+  border:3px blue solid;
+}
+.btn >button:hover {
+  background-color:blue;
+  border:3px purple solid;
+  color:white;
+}
+
+
+@media(max-width:1000px) {
+   .primary >h1 {
+    font-size:2rem;
+    text-align: center;
+    margin-left:0px;
+    margin-right:0px;
+   }
+
+   .primary >h3 {
+    width:80%;
+   }
+
+   .img1Sm {
+    display: flex;
+    width:100%;
+    height:550px;
+    margin-top:30px;
+   }
+   .img1 {
+    display: none;
+   }
+
+   .img2 {
+    width:100%;
+   }
+
+   
+
+   .tweet {
+    display: block;
+    margin-top:50px;
+   
+   }
+   .tweetl {
+    width:100%;
+    margin-bottom:50px;
+   }
+   .tweetr {
+    width:100%;
+   }
+
+   
+}
+
+
+
+
+

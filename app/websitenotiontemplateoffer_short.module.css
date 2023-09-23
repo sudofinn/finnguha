@@ -1,0 +1,119 @@
+.full {
+  display: flex;
+  justify-content: space-between;
+  margin-top:200px;
+
+}
+
+
+.primary {
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+
+    */
+    
+
+    
+
+}
+
+.primary > h1 {
+    color:white;
+    text-align: center;
+    width:90%;
+    font-size:3rem;
+}
+
+
+
+
+
+
+.btn {
+  text-align: center;
+  margin-top:20px;
+  
+ 
+}
+.btn >button {
+  font-size:2rem;
+  padding:20px;
+  border:3px blue solid;
+}
+.btn >button:hover {
+  background-color:blue;
+  border:3px green solid;
+  color:white;
+}
+
+
+.links {
+  text-decoration: underline blue;
+
+}
+
+.links:hover {
+  color:blue;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.links2 {
+  text-decoration: underline green;
+}
+
+.primarybutton {
+
+  padding:24px;
+  margin-top:15px;
+  font-weight:600;
+  border: 5px purple solid;
+
+  font-size:1rem;
+  margin-left: 10px;
+  
+}
+
+
+
+
+.mobileimg {
+  display: none;
+}
+
+
+@media(max-width:1600px) {
+  .full {
+    display: block;
+  }
+  .primary >h1 {
+    font-size:2rem;
+    margin-left:0px;
+    margin-right:0px;
+    width:95%;
+   }
+
+  }
+
+
+@media(max-width:1100px) {
+   .img {
+     display: none;
+   }
+   .mobileimg {
+    display: flex;
+    width: 100%;
+    height: auto;
+    
+   }
+   .secondary {
+    display: flex;
+    justify-content: center;
+
+    margin-top:50px;
+
+    
+   }
+}
+

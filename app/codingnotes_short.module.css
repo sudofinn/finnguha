@@ -1,0 +1,64 @@
+.primary1 {
+    color:white;
+    margin-top:200px;
+}
+
+.primary1 >h1 {
+    text-align: center;
+    font-size:3rem;
+    margin-left:100px;
+    margin-right:100px;
+
+    margin-bottom:30px;
+}
+
+.btn {
+  text-align: center;
+  margin-bottom:30px;
+  
+ 
+}
+.btn >button {
+  font-size:2rem;
+  padding:20px;
+  border:3px blue solid;
+}
+.btn >button:hover {
+  background-color:blue;
+  border:3px purple solid;
+  color:white;
+}
+
+.span1 {
+   
+  text-decoration: underline purple;
+   white-space: nowrap;
+}
+
+.span1:hover {
+   color:purple;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+
+.player {
+   max-width: 100%;
+  height: auto;
+
+  padding-top:100px;
+}
+
+
+
+
+@media(max-width:1000px) {
+   .primary1 >h1 {
+    font-size:2rem;
+    margin-left:0px;
+    margin-right:0px;
+   }
+
+   
+}
+

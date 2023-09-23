@@ -1,0 +1,123 @@
+.primary >h1 {
+    color:white;
+
+    font-size:4rem;
+
+   margin:auto;
+   text-align: center;
+
+   margin-top:50px;
+   margin-bottom:50px;
+
+}
+
+
+.form {
+  margin-bottom:75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  
+}
+
+.primary {
+  text-align: center;
+}
+
+
+
+
+
+.form >input {
+    font-size:2rem;
+    padding:30px;
+    min-width:400px;
+    width:800px;
+
+    margin-bottom:50px;
+    
+}
+
+.form >input:hover {
+  border: blue 5px solid
+}
+
+.form2 >button {
+  font-size:2rem;
+    padding:30px;
+     background-color:orange;
+  border:white 5px solid
+}
+
+.form2 >button:hover {
+  background-color:white;
+  border:orange 5px solid
+}
+
+.form >input::placeholder {
+  color: black;
+  opacity: 1; /* Firefox */
+}
+
+
+.form >button {
+    font-size:2rem;
+    padding:30px;
+    
+
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  text-decoration: underline;
+  text-decoration-color: white;
+
+  margin-bottom:50px;
+  
+}
+
+.social >h3 {
+  font-size: 2.5rem;
+  color:white;
+}
+
+.socialemail {
+    color:white;
+}
+
+.socialtwitter {
+   
+   width:50px;
+   height:50px;
+ 
+
+   color:white;
+}
+
+
+
+.socialemail {
+    
+   width:50px;
+   height:50px;
+   border:3px white solid;
+   padding:10px;
+
+}
+
+@media(max-width:1000px) {
+  .form >input  {
+     max-width:600px;
+  }
+}
+
+@media(max-width:600px) {
+  .form >input {
+    width:400px;
+  }
+}

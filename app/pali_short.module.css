@@ -1,0 +1,92 @@
+.primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top:200px;
+
+}
+
+.primary >h1 {
+    color:white;
+    text-align: center;
+    width:80%;
+    font-size:3.5rem;
+}
+
+.btn {
+  text-align: center;
+  margin-bottom:30px;
+  
+ 
+}
+.btn >button {
+  font-size:2rem;
+  padding:20px;
+  border:3px yellow solid;
+}
+.btn >button:hover {
+  background-color:yellow;
+  border:3px blue solid;
+  color:black 
+}
+
+
+
+.links {
+  text-decoration: underline blue;
+
+}
+
+.links:hover {
+  color:blue;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.tweet  {
+  display: flex;
+  justify-content: space-evenly;
+
+
+  
+}
+
+.tweetl {
+  width:600px;
+}
+
+.tweetr {
+  width:600px;
+}
+
+
+@media(max-width:1000px) {
+   .primary >h1 {
+    font-size:2rem;
+    width:100%;
+    margin-left:0px;
+    margin-right:0px;
+   }
+
+   .tweet {
+    display: block;
+    margin-top:50px;
+   
+   }
+   .tweetl {
+    width:100%;
+    margin-bottom:50px;
+   }
+   .tweetr {
+    width:100%;
+   }
+
+   
+}
+
+
+
+
+

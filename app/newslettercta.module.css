@@ -1,0 +1,103 @@
+.body {
+	
+
+  margin-top:200px;
+  text-align: center;
+	
+}
+
+/* if this does not work, make at simply ( just everything center, no side by side ) */
+
+.headingp {
+  color:white;
+	
+
+  font-size:3rem;
+  text-align: center;
+  
+}
+
+
+.form {
+  margin-bottom:75px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+
+
+
+
+.form >input {
+    font-size:2rem;
+    padding:30px;
+    min-width:400px;
+}
+
+.form >input::placeholder {
+  color: black;
+  opacity: 1; /* Firefox */
+}
+
+
+.form >button {
+    font-size:2rem;
+    padding:30px;
+    
+
+}
+
+
+
+.links {
+  text-decoration: underline blue;
+
+}
+
+.links:hover {
+  color:blue;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+.pointer {
+  rotate: 90deg;
+}
+
+.ctapic {
+
+}
+
+
+@media(max-width:1000px) {
+  .headingp{
+     font-size:2rem;
+    margin-left:0px;
+    margin-right:0px;
+  }
+
+  .form >input {
+    font-size:1.5rem;
+    padding:20px 10px;
+    min-width:300px;
+}
+.form >button {
+    padding:10px;
+    
+
+}
+
+.ctapic {
+   width: 100%;
+  height: auto;
+}
+
+
+}
+
+
+
