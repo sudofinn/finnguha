@@ -43,6 +43,7 @@ const MyContent = () => {
 
             </div>
             </Link>
+
             <Link href="https://freelanceos.pro" target="_blank">
              <div className={styles.box}>
                 <Image className={styles.imgp} src={DummyBanner} alt="one"/>
