@@ -25,7 +25,7 @@ import AnkiGuideBanner from "../assets/ankiguide_header_pw.png"
 const MyContent = () => {
     const router = useRouter()
   return (
-    <div className={styles.primary}>
+    <div className={styles.primary} id="Content">
          <h1 className={roboto_mono.className}>
         I know what you need. Here are templates, guides and courses to get better at learning, coding and building startups.
         <AiFillFire className={styles.pointer} /> 

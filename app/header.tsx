@@ -40,7 +40,7 @@ const Header = () => {
       </div>
 
 
-        <Link className={styles.linktop} to="Startups" smooth duration={1000}>
+        <Link className={styles.linktop} to="Content" smooth duration={1500}>
      <div className={styles.search}>
       <span  className={permanent_marker.className}>Find all my stuff  </span>
       <button type="button" className={styles.primarybutton}>
