@@ -42,13 +42,14 @@
 }
 
 
-.player {
-   max-width: 100%;
-  height: auto;
 
-  padding-top:100px;
+.playerWrapper2 {
+  display: none;
 }
 
+.playerWrapper3 {
+  display: none;
+}
 
 
 
@@ -59,6 +60,28 @@
     margin-right:0px;
    }
 
+   .playerWrapper3 {
+    display: none;
+   }
+
+   .playerWrapper2 {
+    display:block;
+   }
+   .playerWrapper {
+    display: none;
+   }
+
+  
+
    
+}
+
+@media(max-width:600px) {
+  .playerWrapper3 {
+    display: block;
+  }
+  .playerWrapper2 {
+    display: none;
+  }
 }
 

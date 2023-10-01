@@ -57,6 +57,30 @@ const FreelanceOSShort = () => {
     ) : null}
 
        </div>
+
+         <div className={styles.playerWrapper2}> 
+        {isLoaded ? (
+      <ReactPlayer
+        url="https://www.youtube.com/watch?v=6u0j25ewEqE" className={styles.player2}
+         width='100%'
+          height='400px'
+          controls
+      />
+    ) : null}
+
+       </div>
+
+         <div className={styles.playerWrapper3}> 
+        {isLoaded ? (
+      <ReactPlayer
+        url="https://www.youtube.com/watch?v=6u0j25ewEqE" className={styles.player3}
+         width='100%'
+          height='300px'
+          controls
+      />
+    ) : null}
+
+       </div>
         
     
   
