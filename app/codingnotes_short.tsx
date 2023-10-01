@@ -65,7 +65,7 @@ const CodingnotesShort = () => {
       <ReactPlayer
         url="https://www.youtube.com/watch?v=qrTHDAbPN9I" className={styles.player2}
            width='100%'
-          height='400px'
+          height='350px'
           controls
       />
     ) : null}
@@ -77,7 +77,7 @@ const CodingnotesShort = () => {
       <ReactPlayer
         url="https://www.youtube.com/watch?v=qrTHDAbPN9I" className={styles.player3}
            width='100%'
-          height='300px'
+          height='250px'
           controls
       />
     ) : null}
