@@ -43,7 +43,7 @@ export default function Home() {
 
       <meta
           property="og:image"
-          content="../public/favicon.ico"
+          content="/public/favicon.ico"
         />
     </Head>
 
