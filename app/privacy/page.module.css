@@ -13,3 +13,10 @@
     color:green;
     font-size:1.5rem;
 }
+
+@media(max-width:600px) {
+    .primary {
+        margin-left:0px;
+        margin-right:0px;
+    }
+}
