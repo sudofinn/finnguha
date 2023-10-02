@@ -99,5 +99,15 @@
 
 }
 
+@media(max-width:600px) {
+  .form {
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    
+  }
+}
+
 
 
