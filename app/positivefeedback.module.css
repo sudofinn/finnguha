@@ -173,11 +173,9 @@ width: auto; /* for ie9 */
 
    }
    .mainp ,.main2 {
-     margin-left:-20px;
+     margin-left:-10px;
    }
-   .outer {
-    overflow: hidden;
-   }
+   
 
   
 }
