@@ -14,6 +14,10 @@
     font-size:1.5rem;
 }
 
+.link {
+    text-decoration: underline;
+}
+
 @media(max-width:600px) {
     .primary {
         margin-left:0px;

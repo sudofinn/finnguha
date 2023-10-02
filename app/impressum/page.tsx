@@ -20,10 +20,10 @@ const page = () => {
 <p>Scharnhorststraße 45 Dinslaken , 46535</p>
 <p>finnguha@gmail.com</p>
 <p>+4915736470782</p>
-<p>INFORMATIONEN ÜBER DIE UNTERNEHMENSREGISTRIERUNG</p>
+<p>INFORMATIONEN ÜBER DIE UNTERNEHMENS<br/>REGISTRIERUNG</p>
 <p>Informationen zur Online-Streitbeilegung: Die EU-Kommission hat eine Internetplattform zur Online-Beilegung von Streitigkeiten (sog. „OS-Plattform“) geschaffen. Die OS-Plattform dient als Anlaufstelle zur außergerichtlichen Beilegung von Streitigkeiten betreffend vertragliche Verpflichtungen, die aus Online-Kaufverträgen erwachsen. Sie können die OS-Plattform unter dem folgenden Link erreichen:
-  http://ec.euopa.eu/consumers/odr 
-  „Hinweis gemäß § 36 Verbraucherstreitbeilegungsgesetz
+<Link href="http://ec.euopa.eu/consumers/odr " className={styles.link}>click here</Link>
+  „Hinweis gemäß § 36 Verbraucherstreitbeile<br/>gungsgesetz
    (VSBG).
 </p>
 
