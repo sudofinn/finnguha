@@ -36,14 +36,14 @@ const page = () => {
         </div>
         </Link>
 
-        <div className={styles.form}>
+        <form className={styles.form}>
 		<input type="email" className={permanent_marker.className}  placeholder="Enter your name" />
 		<input type="email" className={permanent_marker.className}  placeholder="Enter your email address" />
 
     <div className={styles.form2}>
 		<button type="button" className={permanent_marker.className}>Let&apos;s talk ! <FiSend /></button>
     </div>
-	</div>
+	</form>
 
   <Footer />
 

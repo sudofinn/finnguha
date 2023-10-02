@@ -114,10 +114,15 @@
   .form >input  {
      max-width:600px;
   }
+  .primary >h1 {
+    font-size:2rem;
+  }
 }
 
 @media(max-width:600px) {
   .form >input {
-    width:400px;
+    max-width:350px;
+    margin-left:10px;
+    font-size:1.5rem;
   }
 }
