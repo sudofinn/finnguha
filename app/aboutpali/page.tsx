@@ -11,7 +11,7 @@ import { Tweet } from 'react-tweet'
 
 
 import Header from "../../assets/pali_header.png"
-import HeaderSm from "../../assets/pali_header_sm_2.png"
+import HeaderSm from "../../assets/pali_header_sm.png"
 import HeaderExtraSm from "../../assets/pali_header_smextra.png"
 
 import Timeline from "../../assets/pali_timeline.png"
