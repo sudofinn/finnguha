@@ -30,6 +30,7 @@
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
   grid-gap: 4em;
   margin-bottom:50px;
+  
 }
 
 .mainp >Image {
@@ -163,13 +164,19 @@ width: auto; /* for ie9 */
    .primary >h1 {
     font-size:2rem;
     width:100%;
-    margin-left:0px;
+   
     margin-right:0px;
    }
 
    .main2 {
      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
 
+   }
+   .mainp ,.main2 {
+     margin-left:-20px;
+   }
+   .outer {
+    overflow: hidden;
    }
 
   
