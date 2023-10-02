@@ -9,9 +9,9 @@ import {permanent_marker, roboto_mono} from "./fonts"
 import AGrid from "../assets/producthuntupvotessymbol.png"
 import AGridSm from "../assets/producthuntupvotessymbol_sm.png"
 import BGrid from "../assets/producthunt5thplacebadge.png"
-import BGridSm from "../assets/producthunt5thplacebadge_sm.png"
+import BGridSm from "../assets/producthunt5thplacebadge_sm_2.png"
 import CGrid from "../assets/codingnotes5startrating_codingnotesfeedback.png"
-import CGridSm from "../assets/5starrating_sm_codingnotesgeneral.png.png"
+import CGridSm from "../assets/5starrating_sm_codingnotes_generalfeedback.png"
 import EGrid from "../assets/niceworkonthelaunchofyourproduct_codingnotesfeedback.png"
 import EGridSm from "../assets/niceworkonthelaunchofyourproduct_phonesmallimg_codingnotesfeedback.png"
 import FGrid from "../assets/goingtogiveitatry_codingnotesfeedback.png"
@@ -44,7 +44,7 @@ const PositiveFeedback = () => {
 
 
   return (
-    <div>
+    <div className={styles.outer}>
     <div className={styles.primary}>
          <h1 className={roboto_mono.className}>
        This is what people think about my work.
@@ -63,6 +63,8 @@ const PositiveFeedback = () => {
   <Image  className={styles.gridItem}  src={OGrid}  alt="First" />
   
 </main>
+
+
 
      <main className={styles.main2}>
   <Image  className={styles.gridItem2} src={EGrid}  alt="First" />
@@ -111,6 +113,7 @@ const PositiveFeedback = () => {
 
   
 </main>
+ 
 
 
 

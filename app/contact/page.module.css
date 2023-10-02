@@ -48,12 +48,14 @@
   font-size:2rem;
     padding:30px;
      background-color:orange;
-  border:white 5px solid
+  border:white 5px solid;
+
 }
 
 .form2 >button:hover {
   background-color:white;
-  border:orange 5px solid
+  border:orange 5px solid;
+  cursor: pointer;
 }
 
 .form >input::placeholder {
