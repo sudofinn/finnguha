@@ -28,10 +28,12 @@ const Newslettercta = () => {
     <div className={roboto_mono.className} >
 	<h2 className={styles.headingp}>The <span className={styles.links} onClick={() => window.open('https://learn2learn.club')}> <FiMousePointer className={styles.pointer} />Learn2Learn</span> newsletter is free, teaches you how to learn and gives you an exclusive study community. Join it here !</h2>
   
-	<div className={styles.form}>
+	<form className={styles.form}
+        action= {process.env.NEXT_PUBLIC_KEY}
+              method="POST">
 		<input type="email" className={permanent_marker.className}  placeholder="Enter your email address" />
 		<button ><FiSend /> </button>
-	</div>
+	</form>
 	
 	
 	
