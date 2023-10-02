@@ -100,6 +100,10 @@
   color:black;
 }
 
+.img1SmExtra {
+  display: none;
+}
+
 
 @media(max-width:1000px) {
    .primary >h1 {
@@ -118,6 +122,9 @@
     margin-top:30px;
    }
    .img1 {
+    display: none;
+   }
+   .img1SmExtra {
     display: none;
    }
 
@@ -142,6 +149,28 @@
 
    
 }
+
+
+@media(max-width:600px) {
+  .primary >h3 {
+    width:100%;
+  }
+  .primary >h1 {
+    width:100%;
+  }
+  
+  .img1SmExtra {
+    display: flex;
+  }
+  .img1 {
+    display: none;
+  }
+  .img1Sm {
+    display: none;
+  }
+
+}
+
 
 
 

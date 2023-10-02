@@ -146,6 +146,19 @@
 }
 
 
+@media(max-width:600px) {
+  .primary >h3 {
+    width:100%;
+  }
+
+  .primary >h1 {
+    width:100%;
+  }
+  
+}
+
+
+
 
 
 

@@ -11,7 +11,8 @@ import { Tweet } from 'react-tweet'
 
 
 import Header from "../../assets/pali_header.png"
-import HeaderSm from "../../assets/pali_header_sm.png"
+import HeaderSm from "../../assets/pali_header_sm_2.png"
+import HeaderExtraSm from "../../assets/pali_header_smextra.png"
 
 import Timeline from "../../assets/pali_timeline.png"
 import CNFeedback from "../../assets/codingnotes_feedback_01.png"
@@ -36,6 +37,7 @@ const CodingnotesLong = () => {
 
         <Image className={styles.img1} src={Header} alt="Header" />
         <Image  className={styles.img1Sm} src={HeaderSm} alt="Header sm" />
+        <Image  className={styles.img1SmExtra} src={HeaderExtraSm} alt="Header extra sm" />
         <h3 className={roboto_mono.className}>Everybody has a way to learn something. However, most often it&apos;s highly ineffective. 
         There are apps that make the process easier and more fun but with no app you can learn while doing something else.
         With Pali, you can
