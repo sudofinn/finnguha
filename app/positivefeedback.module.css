@@ -92,6 +92,11 @@ width: auto; /* for ie9 */
     display:none;
 
 }
+.gridItem3SmLast {
+      object-fit: cover;
+    display:none;
+
+}
 
 
 
@@ -174,6 +179,8 @@ width: auto; /* for ie9 */
    }
    .mainp ,.main2 {
      overflow: hidden;
+     margin-left:-10px;
+
    }
    
 
@@ -202,6 +209,9 @@ width: auto; /* for ie9 */
     .gridItem3Sm {
         display: grid;
     }
+    .gridItem3SmLast {
+        display: grid;
+    }
 
 
 
@@ -214,6 +224,12 @@ width: auto; /* for ie9 */
     }
 
     .cgrid {
+        display: none;
+    }
+}
+
+@media(max-width:600px) {
+    .gridItem3SmLast {
         display: none;
     }
 }
