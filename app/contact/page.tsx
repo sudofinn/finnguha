@@ -40,8 +40,8 @@ const page = () => {
         action= {process.env.NEXT_PUBLIC_KEY}
               method="POST"
                className={styles.form}>
-          <input type="name" className={permanent_marker.className}  placeholder="Enter your name" />
-          <input type="email" className={permanent_marker.className}  placeholder="Enter your email address" />
+          <input  name="name" type="name" className={permanent_marker.className}  placeholder="Enter your name" />
+          <input  name="email" type="email" className={permanent_marker.className}  placeholder="Enter your email address" />
 
           <div className={styles.form2}>
             <button type="button" className={permanent_marker.className}>Let&apos;s talk ! <FiSend /></button>

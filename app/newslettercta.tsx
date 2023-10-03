@@ -31,7 +31,7 @@ const Newslettercta = () => {
 	<form className={styles.form}
         action= {process.env.NEXT_PUBLIC_KEY}
               method="POST">
-		<input type="email" className={permanent_marker.className}  placeholder="Enter your email address" />
+		<input  name="email" type="email" className={permanent_marker.className}  placeholder="Enter your email address" />
 		<button ><FiSend /> </button>
 	</form>
 	
