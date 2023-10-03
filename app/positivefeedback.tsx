@@ -109,7 +109,7 @@ const PositiveFeedback = () => {
   <Image  className={styles.gridItem3} src={QGrid}  alt="First" />
   <Image  className={styles.gridItem3Sm} src={QGridSm}  alt="First" />
  <Image className={styles.gridItem3}  src={LGrid}  alt="First" />
- <Image className={styles.gridItem3SmLast}  src={LGridSm}  alt="First" />
+ <Image className={styles.gridItem3Sm}  src={LGridSm}  alt="First" />
 
   
 </main>
