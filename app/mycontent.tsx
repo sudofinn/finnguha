@@ -63,7 +63,7 @@ const MyContent = () => {
             </Link>
 
 
-            <Link href="/" target="_blank">
+            <Link href="https://vimfinn.gumroad.com/l/ankiguide" target="_blank">
              <div className={styles.box}>
                 <Image className={styles.imgp} src={AnkiGuideBanner} alt="one"/>
                 <h3 className={roboto_mono.className}>The complete Anki guide</h3>
