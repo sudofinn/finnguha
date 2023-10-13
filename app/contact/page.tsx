@@ -40,7 +40,7 @@ const page = () => {
          action= {process.env.NEXT_PUBLIC_KEY}
               method="POST"
                className={styles.form}>
-          <input  name="name" type="name" className={permanent_marker.className}  placeholder="Enter your name" />
+          <input  name="name" type="name" className={permanent_marker.className}  placeholder="Enter your question" />
           <input  name="email" type="email" className={permanent_marker.className}  placeholder="Enter your email address" />
 
           <div className={styles.form2}>
